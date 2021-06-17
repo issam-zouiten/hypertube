@@ -1,0 +1,121 @@
+.movieContainer {
+    height: 100vh;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Cover {
+    /* height: 70vh; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.CoverShading {
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(30, 29, 32, 1) 46%
+    );
+}
+
+.movieLogo {
+    /* color: white; */
+    padding: 70px;
+    width : 13%; 
+    /* font-size: 60px!important; */
+}
+
+.movieLogout {
+    color: white;
+    padding-top: 80px!important;
+    font-size: 40px!important;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+    .movieLogo {
+        padding-left : 0px;
+        margin-left : 3px;
+        padding-top: 40px;
+        width : 20%; 
+    }
+
+    .movieLogout {
+        font-size: 25px !important;
+        padding-top: 45px!important;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .movieLogo {
+        padding-left : 0px;
+        margin-left : 3px;
+        padding-top: 40px;
+        width : 40%; 
+    }
+
+    .movieLogout {
+        font-size: 20px !important;
+        padding-top: 45px!important;
+    }
+}
+
+
+.movieInfosContainer {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 99;
+    position: relative;
+    background: rgb(65, 64, 65);
+    background: linear-gradient(
+      143deg,
+      rgba(65, 64, 65, 1) 0%,
+      rgba(30, 29, 32, 1) 69%
+    );
+    margin-top: 35vh!important;
+    margin-bottom: 20px!important;
+}
+
+.similarMovie {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.imageCover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.commentTextField {
+    max-width: 1000px;
+    margin: 70px;
+}
+Ï .textField {
+    width: 1000px;
+}
+.movieInfos {
+    color: whitesmoke;
+}
+.movieMiniInfos {
+    color: grey;
+}
+
+@media screen and (max-width: 2000px) {
+    .Cover {
+      height: 100%;
+    }
+  }
+  

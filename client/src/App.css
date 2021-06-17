@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #171618;
+  /* background-repeat: no-repeat; */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  background-size: fill;
+  /* overflow-x: hidden; */
+  font-family: "Cardo", serif;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}

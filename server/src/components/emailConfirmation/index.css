@@ -1,0 +1,13 @@
+.confirmeContainer {
+    height: 40vh;
+}
+
+.confirmeinputContainer {
+    background: rgb(65, 64, 65);
+  background: linear-gradient(
+    143deg,
+    rgba(65, 64, 65, 1) 0%,
+    rgba(30, 29, 32, 1) 69%
+  );
+  border-radius: 30px;
+}

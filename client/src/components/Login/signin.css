@@ -1,0 +1,87 @@
+.signinContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/bg1.jpg);
+  background-size: cover;
+  padding: 10%;
+}
+
+.loginContainer {
+  border-radius: 30px;
+  height: 50vh!important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  animation: slideRight 0.8s;
+}
+
+@keyframes slideRight {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+.omniImg {
+  width: 50px;
+  height: 50px;
+}
+
+.loginInputContainer {
+  background: rgb(65, 64, 65);
+  background: linear-gradient(
+    143deg,
+    rgba(65, 64, 65, 1) 0%,
+    rgba(30, 29, 32, 1) 69%
+  );
+  border-radius: 30px;
+}
+
+
+.loginImageContainer:hover .loginImage{
+  width: 90%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.loginInput {
+  color: white;
+  margin-bottom: 7px !important;
+}
+
+.loginBtn {
+  border-radius: 0;
+  border: 0;
+  color: white;
+  height: 48;
+  padding: 0 30px;
+  width: 50%;
+}
+
+.logo {
+  color: white;
+  font-size: auto!important;
+}
+
+.loginInputLabel {
+  color: #DAD6D5 !important;
+}
+.loginInput {
+  color: aliceblue !important;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .loginInputContainer {
+    padding: 30px!important;
+  }
+}

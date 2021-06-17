@@ -1,0 +1,45 @@
+.introContainer {
+    background-image: url(./img/bg2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    padding: 50px;
+}
+
+.descriptionContainer {
+   color: lightgrey;
+    padding: 50px;
+}
+
+.introBtn {
+    width: 60%;
+}
+
+.startedBtn {
+    width: 50%;
+    height: 4vh;
+}
+
+.startedBtn:hover .startedIcon{
+    width: 40px!important;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .startedBtn {
+        width: 60%;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .startedBtn {
+        width: 100%;
+        height: 5vh;
+    }
+    .introContainer {
+        padding: 10px;
+    }
+  }

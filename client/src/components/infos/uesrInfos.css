@@ -1,0 +1,197 @@
+
+.stepperContainer {
+  background-color: transparent!important;
+  /* border: 2px sol id yellow; */
+  /* color: red; */
+}
+
+.finish {
+  background-color: transparent!important;
+}
+
+
+.profilContainer {
+  height: 100vh;
+}
+
+.profileContainer {
+  border-radius: 30px;
+  height: 60vh!important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  animation: slideRight 0.8s;
+}
+
+@keyframes slideRight {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+.profileImageContainer {
+  background: rgb(254, 107, 139);
+  background: linear-gradient(
+    143deg,
+    rgba(254, 107, 139, 1) 0%,
+    rgba(255, 137, 91, 1) 100%
+    );
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.profileInputContainer {
+  background: rgb(65, 64, 65);
+  background: linear-gradient(
+    143deg,
+    rgba(65, 64, 65, 1) 0%,
+    rgba(30, 29, 32, 1) 69%
+  );
+  padding: 1px;
+}
+
+.infosContainer {
+  /* border: 1px solid yellow; */
+  margin-top: 5vh!important;
+  height: 35vh;
+}
+
+.profileImage {
+  /* width: 70%!important; */
+  height: auto;
+  animation: fading 3s;
+}
+
+.tagsField {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  color: white;
+  border-radius: 20px;
+  height: 2.5vh;
+  text-align: center;
+  margin: 1%!important;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+
+}
+
+.tagsCont {
+  margin-top: 2%!important;
+}
+
+.userPhoto {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: transparent;
+  border: 1px solid orangered;
+}
+
+.tagIcon {
+  color:#fe6b8b!important;
+  cursor: pointer;
+}
+
+.deleteTagBtn {
+  width: 15px!important;
+  cursor: pointer;
+}
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.profileInput {
+  color: white;
+  margin-bottom: 7px !important;
+}
+
+.profileBtn {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  border-radius: 0;
+  border: 0;
+  color: white;
+  padding: 0 30px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+  width: 40%;
+}
+
+.logo {
+  color: white;
+}
+
+.profileInputLabel {
+  color: grey !important;
+}
+.profileInput {
+  color: aliceblue !important;
+}
+
+.profileBtn:hover .forward {
+  height: 20px;
+  color: lightgrey;
+}
+
+.profileBtn:hover {
+  opacity: 0.8;
+}
+
+.userImage {
+  height: 22vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+}
+.addBtn {
+  color: grey;
+  width: 25px;
+  position: relative;
+  right: -10px;
+  top: 10px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+
+.MapContainer {
+  height: 45vh!important;
+  /* width: 100%!important; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.DoneContainer {
+  height: 25vh!important;
+  text-align: center;
+}
+
+.map {
+  height: 45vh!important;
+  width: 45vh!important;
+  position: relative;
+  left:870px
+}
+
+.doneImg {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .profileImageContainer {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .profileInputContainer {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}

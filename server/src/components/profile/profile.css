@@ -1,0 +1,36 @@
+.profileContainer {
+  height: 500px!important;
+  width: 1000px!important;
+  padding: 2%;
+  margin: 0;
+  background: rgb(65, 64, 65);
+  background: linear-gradient(
+    143deg,
+    rgba(65, 64, 65, 1) 0%,
+    rgba(30, 29, 32, 1) 69%
+  );
+  border-radius: 20px;
+}
+
+.userImage {
+  border-radius: 30px;
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+.loginInputLabel {
+  color: #DAD6D5 !important;
+}
+.loginInput {
+  color: aliceblue !important;
+}
+@media screen and (max-width: 1280px)
+{
+  .profileContainer {
+    height: 100vh !important;
+    width: 90vw!important;
+    overflow: auto;
+    padding: 2%;
+  }
+}
